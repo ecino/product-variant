@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [product_variant_default_code](product_variant_default_code/) | 16.0.1.0.2 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | Product Variant Default Code
+[product_variant_sale_price](product_variant_sale_price/) | 16.0.1.0.0 |  | Allows to write fixed prices in product variants
 
 [//]: # (end addons)
 
