@@ -23,9 +23,9 @@ class ProductTemplate(models.Model):
 
     def write(self, vals):
         res = super().write(vals)
-        if self.env.context.get("skip_update_fix_price", False):
-            return res
-        if "list_price" in vals:
+        if "list_price" in vals and not self.env.context.get(
+            "skip_update_fix_price", False
+        ):
             self.mapped("product_variant_ids").write({"fix_price": vals["list_price"]})
         return res
 

@@ -17,7 +17,19 @@ product-variant
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[product_variant_attribute_tax](product_variant_attribute_tax/) | 19.0.1.0.0 |  | Set taxes on the product attribute values
+[product_variant_configurator](product_variant_configurator/) | 19.0.1.0.2 |  | Provides an abstract model for product variant configuration.
+[product_variant_default_code](product_variant_default_code/) | 19.0.1.0.0 | <a href='https://github.com/Kev-Roche'><img src='https://github.com/Kev-Roche.png' width='32' height='32' style='border-radius:50%;' alt='Kev-Roche'/></a> | Allow to automatically generate the variant default code
+[product_variant_name](product_variant_name/) | 19.0.1.0.0 |  | Product Variant Name
+[product_variant_sale_price](product_variant_sale_price/) | 19.0.1.0.0 |  | Allows to write fixed prices in product variants
+[product_variant_specific_description](product_variant_specific_description/) | 19.0.1.0.0 |  | Product Variant Specific Description
+[purchase_variant_configurator](purchase_variant_configurator/) | 19.0.1.0.0 |  | Product variants in purchase management
+[sale_order_line_variant_description](sale_order_line_variant_description/) | 19.0.1.0.0 |  | Sale order line variant description
+[sale_variant_configurator](sale_variant_configurator/) | 19.0.1.0.6 |  | Product variants in sale management
 
 [//]: # (end addons)
 
